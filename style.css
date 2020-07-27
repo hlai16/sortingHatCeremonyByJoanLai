@@ -1,0 +1,200 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+html {
+    font-size: 95%;
+}
+
+body {
+    font-size: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(238, 238, 179);
+    /* background-image: url(img/hogwartsByDanielBrubakerFromUnsplash.jpg);
+    background-size: cover;
+    overflow: hidden; */
+}
+
+.wrapper {
+    max-width: 95%;
+    margin: auto;
+    /* background-color: rgba(221, 221, 221, 0.959);     */
+}
+
+/* Fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 150%;
+    font-family: 'Cinzel Decorative', cursive;
+    /* letter-spacing: 150%; */
+    font-weight: bold;
+    font-size: 200%;
+}
+
+h1 {
+    text-shadow: 2px 2px 1px #999
+}
+
+h2,
+h3,
+h4 {
+    color: rgb(1, 37, 1);
+    text-shadow: 2px 2px 1px #aaa
+}
+
+p{
+    font-size: 150%;
+}
+
+.attention {
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 1px darkgoldenrod
+}
+
+header {
+    background-color: rgb(2, 71, 2);
+    color: gold;
+    padding-bottom: 2.5%;
+}
+
+header img {
+    padding-top: 5%;
+    width: 18%;
+}
+
+article {
+    background-image: url(img/hogwartsByDanielBrubakerFromUnsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+article div{
+    background-color: rgba(238, 238, 179, 0.842);
+    width: 80%;
+    margin: 5% auto;
+    padding: 2.5%;
+}
+
+.enterName,
+.sortNow {
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+input {
+    width: 50%;
+    height: 8vh;
+    font-size: 200%;
+    font-family: 'Almendra SC', serif;
+}
+
+section {
+    margin: 5% auto;
+}
+
+.postResult {
+    margin: 2.5%, auto;
+    transition: 1.5s;
+}
+
+.postResult:hover,
+.postResult:active,
+.postResult:focus-within {
+    transform: scale(1.1);
+    text-shadow: 2px 2px 1px darkgoldenrod
+}
+
+.house {
+    font-size: 250%;
+    color: rgb(80, 1, 80);
+    text-shadow: 2px 2px 1px goldenrod;
+    font-weight: bold;
+}
+
+.houseValue {
+    font-size: 180%;
+    /* border: 1px solid firebrick;
+    box-shadow: 1px 1px 1px darkgoldenrod; */
+    text-decoration: underline overline;
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 2%;
+    color: rgb(2, 71, 2);
+    text-shadow: 2px 2px 1px rgba(178, 34, 34, 0.459);
+}
+
+.nextStudent input,
+.sortNow input {
+    background-color: rgb(2, 71, 2);
+    text-shadow: 2px 2px 1px #999;
+    color: gold;
+}
+
+.nextStudent input:hover,
+.nextStudent input:active,
+.nextStudent input:focus-within,
+.sortNow input:hover,
+.sortNot input:active,
+.sortNow input:focus-within{
+    /* text-shadow: 2px 2px 1px #555; */
+    background-color: darkgreen;
+}
+
+.crest{
+    width: 30%;
+    display: flex;
+}
+
+.crest img {
+    width: 80%;
+}
+
+.firebrick {
+    background-color: firebrick;
+}
+
+.royalblue {
+    background-color: royalblue;
+}
+
+.darkgreen {
+    background-color: darkgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow,
+.firebrick,
+.royalblue,
+.darkgreen {
+    margin: 2% 1%;
+}
+
+
+
+@media screen and (orientation:landscape) and (max-width: 830px){
+    input {
+        font-size: 150%;
+        height: 15vh;
+    }
+}
+@media screen and (orientation:portrait) and (max-width: 430px){
+    input {
+        font-size: 128%;
+        width: 90%;
+    }
+    .crest {
+        flex-direction: column;
+    }
+}
